@@ -13,7 +13,7 @@ public class KumhoTire extends Tire{
             System.out.println(location + " KumhoTire 수명 : " + (maxRotation - accumulateRotation) + "회");
             return true;
         } else {
-            System.out.println("*** " + location + " KumhoTire 펑크 ****");
+            System.out.println("*** " + location + " KumhoTire 펑크 ***");
             return false;
         }
     }
